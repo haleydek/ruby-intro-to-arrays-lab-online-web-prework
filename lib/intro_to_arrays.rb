@@ -20,7 +20,8 @@ def last_element(array)
   return array[-1]
 end
 
-
+@south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 
 def first_element_with_array_methods(array)
-  return 
+  return @south_east_asia.index("Thailand")
+end
